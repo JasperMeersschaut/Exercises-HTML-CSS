@@ -1,0 +1,29 @@
+// Variabelen
+
+$primary-color: rgb(173,178,247);
+$light: white;
+$font: Calibri, sans-serif;
+
+//BasisStijlen
+body{
+    font-family: $font;
+}
+h1{
+    text-align-last: center;
+}
+body, header{
+    background-color: $primary-color;
+}
+.container{
+    background-color: $light;
+}
+header, .container{
+    padding: 10px;
+}
+.container{
+    max-width: 600px;
+    margin: auto;
+}
+.container{
+    width: auto;
+}

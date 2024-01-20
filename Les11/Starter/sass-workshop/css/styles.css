@@ -1,0 +1,29 @@
+body {
+  font-family: Calibri, sans-serif;
+}
+
+h1 {
+  -moz-text-align-last: center;
+       text-align-last: center;
+}
+
+body, header {
+  background-color: rgb(173, 178, 247);
+}
+
+.container {
+  background-color: white;
+}
+
+header, .container {
+  padding: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.container {
+  width: auto;
+}/*# sourceMappingURL=styles.css.map */
