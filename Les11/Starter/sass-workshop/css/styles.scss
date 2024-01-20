@@ -1,29 +1,49 @@
 // Variabelen
 
-$primary-color: rgb(173,178,247);
+$primary-color: rgb(173, 178, 247);
 $light: white;
 $font: Calibri, sans-serif;
 
 //BasisStijlen
-body{
+body {
     font-family: $font;
 }
-h1{
+
+h1 {
     text-align-last: center;
 }
-body, header{
+
+body,
+header {
     background-color: $primary-color;
 }
-.container{
+
+.container {
     background-color: $light;
 }
-header, .container{
+
+header,
+.container {
     padding: 10px;
 }
-.container{
+
+.container {
     max-width: 600px;
     margin: auto;
 }
-.container{
-    width: auto;
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        /* navigatiemenu horizontaal maken */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a {
+        display: block;
+        color: $light;
+    }
 }
