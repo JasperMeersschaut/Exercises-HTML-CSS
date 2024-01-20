@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital@0;1&display=swap');
+
+body {
+   font-family: "Open Sans", sans-serif;
+}
+
+h1,h2,h3 {
+     font-family: "Merriweather", serif;
+}
+section:nth-of-type(1) h2{
+    color: red;
+}
+section:nth-of-type(2) h2{
+    color: yellow;
+}
+section:nth-of-type(3) h2{
+    color: green;
+}
+li li{
+    list-style: none;
+    text-decoration: underline;
+}
+li:first-of-type{
+    font-weight: bold;
+}
+li li,li li:first-of-type{
+    font-weight: normal;
+}
