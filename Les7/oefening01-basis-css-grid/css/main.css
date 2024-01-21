@@ -9,4 +9,18 @@
 }
 
 /* Plaats je oplossing hieronder */
-
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4,150px);
+}
+#box1{
+ 
+}
+#box2{
+  grid-row: 2/3;
+  grid-column: 2/4;
+}
+#box3{
+grid-row: 3/4;
+grid-column: 3/5;
+}

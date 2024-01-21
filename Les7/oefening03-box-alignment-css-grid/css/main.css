@@ -3,15 +3,31 @@
 }
 
 .grid-container {
+  display: grid;
   background-color: lightgrey;
   margin: 2rem 0;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
 }
 .grid-container > p {
   border: 1px solid #000;
   background-color: orange;
   padding: 1em;
+  margin: 0;
 }
 
 /* Plaats je oplossing hieronder */
 
-
+#grid1{
+  
+    justify-items: start;
+    align-items: center;
+}
+#grid2{
+    justify-items: end;
+    
+}
+#grid2 > p:last-of-type{
+  align-self: center;
+  justify-self: start;
+}
