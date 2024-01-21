@@ -7,8 +7,10 @@
 #box2 {
   box-sizing: border-box;
 
-  width: 640px;
-  height: 100px;
+  /* width: 640px; */
+  width: 682px; /* 682px=6px+15px+640px+15px+6px */
+  /* height: 100px; */
+  height: 142px; /* 142px=6px+15px+100pX+15px+6px */
 
   border: 6px solid blue;
 }
