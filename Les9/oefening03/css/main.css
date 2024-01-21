@@ -79,7 +79,19 @@ footer nav div ul {
   text-align: right;
 }
 
-.box2,
-.box3 {
-  display: none;
+@media screen and (max-width : 720px) {
+
+  .box2{
+    display: none;
+  }
+}
+@media screen and (max-width : 1024px) {
+
+  .box3{
+    display: none;
+  }
+  .fotos>* {
+    padding: 0.6em;
+    flex: 1 0 25%;
+  }
 }
