@@ -10,5 +10,10 @@
 }
 
 /* Plaats je oplossing hieronder */
-
+.flex-container{
+  display: flex;
+}
+div{
+  flex-grow: 1;
+}
 

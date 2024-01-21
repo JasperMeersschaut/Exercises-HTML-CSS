@@ -10,5 +10,8 @@
 }
 
 /* Plaats je oplossing hieronder */
-
+.flex-container{
+  display: flex;
+  flex-direction: row-reverse;
+}
 

@@ -10,5 +10,13 @@
 }
 
 /* Plaats je oplossing hieronder */
-
+.flex-container{
+  display: flex;
+}
+.flex-container div{
+  flex-direction: column-reverse;
+}
+#item2 {
+  margin-right: auto;
+}
 

@@ -7,6 +7,9 @@ nav {
 }
 nav ul {
   border: 1px solid #000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 nav a {
   text-decoration: none;
@@ -18,4 +21,26 @@ nav a {
   display: block;
   padding: 10px;
   margin: 10px;
+}
+#nav1 ul {
+  display: flex;
+  justify-content: space-between;
+}
+#nav2 ul{
+  display: flex;
+}
+#nav2 li{
+  flex: 1 1 auto;
+}
+#nav3 ul{
+  display: flex;
+}
+#nav3 li{
+  flex: 1 0;
+}
+#nav4 ul{
+  display:  flex;
+}
+.push-right {
+  margin-left: auto;
 }

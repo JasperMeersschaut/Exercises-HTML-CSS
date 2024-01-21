@@ -10,4 +10,12 @@
 }
 
 /* Plaats je oplossing hieronder */
-
+.flex-container{
+  display: flex;
+}
+.flex-container div{
+  flex-grow: 1;
+}
+.flex-container div:nth-of-type(1), .flex-container div:nth-of-type(5){
+  flex-grow: 2;
+}
