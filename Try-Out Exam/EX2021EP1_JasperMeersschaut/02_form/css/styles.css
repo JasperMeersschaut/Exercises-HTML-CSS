@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    
+  font-family: 'Oswald', sans-serif;
+  background-image: url(../images/batthern.png);
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+fieldset {
+    border-color: rgb(8, 167, 235);
+    border-radius: 0px 0px 10px 10px;
+    color: rgb(8, 167, 235);
+}
+
+button {
+    font-size: 1.1rem;
+    margin: 10px;
+}
+@media screen and (min-width: 960px) {
+    .grid-container {
+        display: grid;
+        max-width: 960px;
+        justify-content: center;
+        
+        grid-template-areas:
+            "E B"
+            "L W";
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .grid-container {
+        display: grid;
+        max-width: 960px;
+        grid-template-areas:
+            "E B"
+            "L W";
+    }
+}
+
+@media screen and (max-width: 523px) {
+    .grid-container {
+        display: grid;
+        max-width: 960px;
+        grid-template-areas:
+            "E "
+            "B"
+            "L "
+            "W";
+    }
+}
+
+#FS1 {
+    grid-area: E;
+}
+
+#FS2 {
+    grid-area: B;
+}
+
+#FS3 {
+    grid-area: L;
+}
+
+#FS4 {
+    grid-area: W;
+}

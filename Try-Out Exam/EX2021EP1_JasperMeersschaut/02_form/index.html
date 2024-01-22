@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Studentenbevraging</title>
-
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -13,10 +13,34 @@
     <div id="main-content">
       <h1>Studentenbevraging</h1>
       <!-- Plaats het formulier hieronder -->
-
+      <form action="mailto:naam@hogent.be?subject=formulierresultaat" method="post" enctype="text/plain">
+        <div class="grid-container">
+          <fieldset id="FS1">
+            <legend>Noteer hieronder je e-mailadres</legend>
+            <label for="e-mailadres">e-mailadres</label>
+            <input type="email" name="e-mailadres" id="e-mailadres" required>
+          </fieldset>
+          <fieldset id="FS2">
+            <legend>Heb jij een opleiding in het buitenland gevold?</legend>
+            <input type="radio" name="buitenland" value="Ja" required>Ja <br>
+            <input type="radio" name="buitenland" value="Nee" required>Nee
+          </fieldset>
+          <fieldset id="FS3">
+            <legend>Wat was je leeftijd op 31 december 2020 (optioneel)</legend>
+            <label for="leeftijd">leeftijd</label>
+            <input type="number" name="leeftijd" id="leeftijd" min="10">
+            </select>
+          </fieldset>
+          <fieldset id="FS4">
+            <legend>Wil jij je opleiding nog iets meegeven over de medezeggenschap? (optioneel)</legend>
+            <input type="text" name="tips" id="tips">
+          </fieldset>
+        </div>
+        <button type="submit" id="submit" >verzenden</button>
+      </form>
     </div>
     <div id="footer-content">
-      <span class="copyright">HoGent</span>
+      <span class="copyright">&copy HoGent</span>
     </div>
   </div>
 </body>
