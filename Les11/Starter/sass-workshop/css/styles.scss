@@ -1,9 +1,4 @@
-// Variabelen
-
-$primary-color: rgb(173, 178, 247);
-$light: white;
-$font: Calibri, sans-serif;
-
+@import "variables.scss";
 //BasisStijlen
 body {
     font-family: $font;

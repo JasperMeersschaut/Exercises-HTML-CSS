@@ -4,7 +4,7 @@ body {
 
 h1 {
   -moz-text-align-last: center;
-  text-align-last: center;
+       text-align-last: center;
 }
 
 body,
@@ -34,10 +34,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
 }
-
 nav a {
   display: block;
   color: white;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
